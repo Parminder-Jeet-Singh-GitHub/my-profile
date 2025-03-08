@@ -135,7 +135,7 @@ function App() {
             ☰
           </button>
           <nav className={`navbar ${menuOpen ? "open" : ""}`}>
-            <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link to="/my-profile" onClick={() => setMenuOpen(false)}>About</Link>
             <Link to="/experience" onClick={() => setMenuOpen(false)}>Experience</Link>
             <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
             <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
