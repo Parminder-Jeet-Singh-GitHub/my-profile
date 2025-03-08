@@ -144,7 +144,7 @@ function App() {
         </header>
 
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/my-profile" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
